@@ -1,3 +1,5 @@
+ - NOTE: The database has been removed from AWS and is no longer available.
+
 # Amazon Vine Analysis
 This analysis uses PySpark to perform the ETL process to extract Amazon product dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Then uses PySpark to determine if there is any bias toward favorable reviews from Vine members in the dataset.
 
